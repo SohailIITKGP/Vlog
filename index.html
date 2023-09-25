@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="head border">
+        <div class="lines" id="hamstrt" onclick="start_login()"><span class="item">&#9776;</span></div>
+        <ul class="nav border" >
+            <li class="cross" id="list-1" onclick="end_login()"><span class="item">&#9747;</span></li>
+            <li class="list" id="list-2"><a href="" onclick="home()">Home</a></li>
+            <li class="list" id="list-3"><a href="">About</a></li>
+            <li class="list" id="list-4"><a href="" onclick="clearall()">Clear</a></li>
+        </ul>
+    </header>
+    <section class="sec" id="sec1">
+        <div class="write" id="shortar">
+            <div class="blog" id="add"><div>ADD</div>
+                <button onclick="transform()">&#65291;</button>     
+            </div>
+        </div>
+        <div class="blog_write" id="wrblog">
+            <div class="blog_head">
+                <input type="text" name="heading" id="h3" placeholder="Title" !important>
+            </div>
+            <div class="blog_body">
+                <textarea id="blogtxt" name="blog_text" placeholder="Details" !important></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit" value="Submit" onclick="store()">Submit</button>
+                <button type="reset" value="Reset" onclick="restore()" >Reset</button>
+            </div>
+        </div>
+    </section>
+    <section class="sec" id="sec2">
+        <!-- <div class="blog_details">
+            <div class="stitle"> Name</div>
+            <div class="sdetails">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem commodi saepe atque animi dicta adipisci distinctio unde at, ducimus necessitatibus aut illo nostrum quae molestias et dolore facere assumenda tenetur ex? Expedita libero dolorum deleniti autem? Deleniti, sit laudantium nisi quaerat porro sequi adipisci dolore dolorum, impedit aut itaque minima ipsum. Sequi ea ut dolorem quidem eum sint nihil error repellendus velit accusamus! Consequuntur, cum distinctio, maiores obcaecati quaerat commodi est aperiam officia voluptatum explicabo autem illum veritatis?</div>
+        </div> -->
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
